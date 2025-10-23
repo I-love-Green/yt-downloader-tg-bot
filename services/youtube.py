@@ -26,5 +26,5 @@ def download_best_quality(url):
         os.replace(output_file, dest_path)
         return dest_path
     except Exception as e:
-        # не ховати помилку — пробросимо її щоб хендлер міг повідомити користувача
+        # Don't hide the error — let's throw it so that the handler can notify the user.
         raise RuntimeError(f"youtube download error: {e}") from e

@@ -8,12 +8,10 @@ from aiogram.fsm.context import FSMContext
 from environs import Env
 from handlers.download import router as download_router
 from handlers.start import router as start_router
-from handlers.help import router as help_router
 
 dp = Dispatcher()
 dp.include_router(start_router)
 dp.include_router(download_router)
-dp.include_router(help_router)
 
 async def main():
     env = Env()
