@@ -1,0 +1,11 @@
+This bot for downloading from Envato, he fuctionality:
+
+Command list:
+1. /start - Welcome message
+2. /help - list of command
+3. /download <url> - downloading files from Envato
+4. /buy - buy diamond for more dowlownloading (on start bot give 5 free)
+5. /files - list of available files
+6. /language = change language, (bot have 2 languages, English and Ukrainian)
+7. /support - contart support
+8. /admin - access for administrators
